@@ -15,13 +15,13 @@ for(int i=len;i>=0;i--)
 rs=rs+n.charAt(i);
 }
 
-if(rs!=n)
+if(rs.equals(n))
 {
-System.out.println("It is  not a palindrome");
+System.out.println("It is   a palindrome");
 }
 else
 {
-System.out.println("It is a palindrome");
+System.out.println("It is not a palindrome");
 }
 }
 }
